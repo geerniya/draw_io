@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T08:10:52.516Z" agent="5.0 (X11)" etag="FDtwpt3aKVc12m89Cn_8" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T08:53:58.521Z" agent="5.0 (X11)" etag="AVFCPwY2zYm1vTF6FNUj" version="16.5.4" type="github">
   <diagram id="ZzQ1lazcJXPdrqoTgt5H" name="Page-1">
     <mxGraphModel dx="1355" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -136,7 +136,10 @@
         <mxCell id="MdKTS7KGamnByq30nPcg-41" value="&lt;div&gt;当前航向角能否匹配&lt;/div&gt;&lt;div&gt;到最近车道&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="857.5" y="350" width="155" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MdKTS7KGamnByq30nPcg-44" value="匹配最近车道信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MdKTS7KGamnByq30nPcg-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-44" target="MdKTS7KGamnByq30nPcg-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-44" value="&lt;div&gt;SetCurrentLanes()&lt;br&gt;&lt;/div&gt;&lt;div&gt;匹配最近车道信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="875" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MdKTS7KGamnByq30nPcg-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-46">
@@ -155,6 +158,9 @@
         </mxCell>
         <mxCell id="MdKTS7KGamnByq30nPcg-49" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="935" y="450" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-51" value="&lt;div&gt;SetNearbyLanes()&lt;br&gt;&lt;/div&gt;&lt;div&gt;匹配附近车道信息&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
