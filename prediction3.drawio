@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T07:57:05.805Z" agent="5.0 (X11)" etag="DghWtFGVAyujlMwOQEXx" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T08:10:52.516Z" agent="5.0 (X11)" etag="FDtwpt3aKVc12m89Cn_8" version="16.5.4" type="github">
   <diagram id="ZzQ1lazcJXPdrqoTgt5H" name="Page-1">
     <mxGraphModel dx="1355" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -112,8 +112,11 @@
         <mxCell id="MdKTS7KGamnByq30nPcg-33" value="&lt;div&gt;IsInJunction()&lt;br&gt;&lt;/div&gt;&lt;div&gt;判断障碍物是否在路口内&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="100" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MdKTS7KGamnByq30nPcg-35" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="875" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="MdKTS7KGamnByq30nPcg-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-35" target="MdKTS7KGamnByq30nPcg-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-35" value="&lt;div&gt;JunctionHeadingAdjust()&lt;/div&gt;&lt;div&gt;根据航向角匹配车道信息&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="241" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MdKTS7KGamnByq30nPcg-37" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="945" y="190" width="30" height="20" as="geometry" />
@@ -123,6 +126,35 @@
         </mxCell>
         <mxCell id="MdKTS7KGamnByq30nPcg-40" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1045" y="110" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-41" target="MdKTS7KGamnByq30nPcg-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-41" target="MdKTS7KGamnByq30nPcg-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-41" value="&lt;div&gt;当前航向角能否匹配&lt;/div&gt;&lt;div&gt;到最近车道&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="857.5" y="350" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-44" value="匹配最近车道信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1135" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-46" value="heading+180°" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-48" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-49" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="935" y="450" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
