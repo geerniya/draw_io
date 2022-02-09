@@ -1,1 +1,130 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T03:49:11.622Z" agent="5.0 (X11)" version="16.5.4" etag="reLUM-qdsVGn199kHsQP" type="github"><diagram id="ZzQ1lazcJXPdrqoTgt5H">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-09T07:57:05.805Z" agent="5.0 (X11)" etag="DghWtFGVAyujlMwOQEXx" version="16.5.4" type="github">
+  <diagram id="ZzQ1lazcJXPdrqoTgt5H" name="Page-1">
+    <mxGraphModel dx="1355" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MdKTS7KGamnByq30nPcg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-1" target="MdKTS7KGamnByq30nPcg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-1" target="MdKTS7KGamnByq30nPcg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-1" target="MdKTS7KGamnByq30nPcg-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-1" value="DP-&amp;gt;objects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="568.5" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-2" target="MdKTS7KGamnByq30nPcg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-2" target="MdKTS7KGamnByq30nPcg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-2" target="MdKTS7KGamnByq30nPcg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-2" value="&lt;div&gt;SetMotionStatus()&lt;br&gt;&lt;/div&gt;&lt;div&gt;根据障碍物类型判断障碍物是否静止&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="568.5" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-3" target="MdKTS7KGamnByq30nPcg-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-3" target="MdKTS7KGamnByq30nPcg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-3" value="&lt;div&gt;SetVelocity()&lt;br&gt;&lt;/div&gt;&lt;div&gt;根据障碍物类型设定障碍物速度&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-5" target="MdKTS7KGamnByq30nPcg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-5" value="vehicle" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478.5" y="330" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-7" target="MdKTS7KGamnByq30nPcg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-7" value="pedestrian" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="582" y="330" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-8" target="MdKTS7KGamnByq30nPcg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-8" value="cyclist" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="688.5" y="330" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-12" target="MdKTS7KGamnByq30nPcg-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525.5" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-12" value="v &amp;lt; 0.9m/s" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478.5" y="410" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-14" target="MdKTS7KGamnByq30nPcg-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-14" value="v &amp;lt; 0.3m/s" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="582" y="410" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-15" target="MdKTS7KGamnByq30nPcg-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="698.5" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735.5" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-15" value="v &amp;lt; 0.5m/s" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="688.5" y="410" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-18" value="&lt;div&gt;is_static&lt;br&gt;&lt;/div&gt;&lt;div&gt;障碍物静止&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="582" y="500" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-24" target="MdKTS7KGamnByq30nPcg-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-24" value="vehicle" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="303.5" y="330" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-25" target="MdKTS7KGamnByq30nPcg-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-25" value="pedestrian、cyclist" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-28" value="采用感知给出的速度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-30" value="&lt;div&gt;LeastSquareEstimate()&lt;br&gt;&lt;/div&gt;&lt;div&gt;根据最小二乘法计算速度方向&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="138.25" y="440" width="136.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-33" target="MdKTS7KGamnByq30nPcg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MdKTS7KGamnByq30nPcg-33" target="MdKTS7KGamnByq30nPcg-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-33" value="&lt;div&gt;IsInJunction()&lt;br&gt;&lt;/div&gt;&lt;div&gt;判断障碍物是否在路口内&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-35" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-37" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="945" y="190" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-38" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MdKTS7KGamnByq30nPcg-40" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="110" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
