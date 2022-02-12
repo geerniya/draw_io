@@ -1,1 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-02-12T02:58:31.553Z" agent="5.0 (X11)" version="16.5.4" etag="A7ZRjwWP0Jl_QyoTF-xB" type="github"><diagram id="IJIWojkRPahus5xYNfnj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-12T04:00:21.654Z" agent="5.0 (X11)" etag="gvkJoXD2k0piv-6KLRl9" version="16.5.4" type="github">
+  <diagram id="IJIWojkRPahus5xYNfnj" name="Page-1">
+    <mxGraphModel dx="1355" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-1" target="lAFTrW0byjjk6NbHgaCr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-1" value="&lt;div&gt;LaneSequencePredictor&lt;/div&gt;&lt;div&gt;前向车道预测器&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-4" target="lAFTrW0byjjk6NbHgaCr-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="410" />
+              <mxPoint x="270" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-4" target="lAFTrW0byjjk6NbHgaCr-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="410" />
+              <mxPoint x="767" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-4" value="DP-&amp;gt;objects" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-6" value="&lt;div&gt;parallel_flag&lt;/div&gt;&lt;div&gt;是否与参考线平行&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="710" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-8" value="obj.type == car || truck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-9" value="obj.type == cyclist" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
