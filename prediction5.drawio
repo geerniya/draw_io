@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-12T04:00:21.654Z" agent="5.0 (X11)" etag="gvkJoXD2k0piv-6KLRl9" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-12T06:21:04.898Z" agent="5.0 (X11)" etag="fBneY5txpUILdcOLHHhX" version="16.5.4" type="github">
   <diagram id="IJIWojkRPahus5xYNfnj" name="Page-1">
     <mxGraphModel dx="1355" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -8,35 +8,73 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lAFTrW0byjjk6NbHgaCr-1" value="&lt;div&gt;LaneSequencePredictor&lt;/div&gt;&lt;div&gt;前向车道预测器&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="240" width="140" height="50" as="geometry" />
+          <mxGeometry x="370" y="270" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lAFTrW0byjjk6NbHgaCr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-4" target="lAFTrW0byjjk6NbHgaCr-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="520" y="410" />
-              <mxPoint x="270" y="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lAFTrW0byjjk6NbHgaCr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-4" target="lAFTrW0byjjk6NbHgaCr-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="520" y="410" />
-              <mxPoint x="767" y="410" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-4" target="lAFTrW0byjjk6NbHgaCr-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lAFTrW0byjjk6NbHgaCr-4" value="DP-&amp;gt;objects" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="330" width="120" height="50" as="geometry" />
+          <mxGeometry x="380" y="360" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lAFTrW0byjjk6NbHgaCr-6" value="&lt;div&gt;parallel_flag&lt;/div&gt;&lt;div&gt;是否与参考线平行&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="710" width="170" height="80" as="geometry" />
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-6" target="lAFTrW0byjjk6NbHgaCr-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="1000" />
+              <mxPoint x="300" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-6" target="lAFTrW0byjjk6NbHgaCr-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-6" value="&lt;div&gt;parallel_flag&lt;/div&gt;&lt;div&gt;判断新的预测点是否与&lt;/div&gt;&lt;div&gt;参考线平行&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="960" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-8" target="lAFTrW0byjjk6NbHgaCr-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lAFTrW0byjjk6NbHgaCr-8" value="obj.type == car || truck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lAFTrW0byjjk6NbHgaCr-9" value="obj.type == cyclist" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="707" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-12" target="lAFTrW0byjjk6NbHgaCr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-12" value="&lt;div&gt;cur_status.xg&lt;/div&gt;&lt;div&gt;cur_status.yg&lt;/div&gt;&lt;div&gt;获取当前预测点位置&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-14" target="lAFTrW0byjjk6NbHgaCr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-14" value="&lt;div&gt;UpdateLaneInfo()&lt;/div&gt;&lt;div&gt;根据路点更新当前参考线&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-16" target="lAFTrW0byjjk6NbHgaCr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-16" value="&lt;div&gt;target_status.xg&lt;/div&gt;&lt;div&gt;target_status.yg&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取预瞄点位置&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-18" target="lAFTrW0byjjk6NbHgaCr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-18" value="计算曲率kai,并计算下一个预测点位置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-22" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="830" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lAFTrW0byjjk6NbHgaCr-23" target="lAFTrW0byjjk6NbHgaCr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-23" value="按照与参考线平行方向更新剩余预测点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-25" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1050" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lAFTrW0byjjk6NbHgaCr-26" value="得到8s预测线轨迹点信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
