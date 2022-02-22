@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T02:20:37.808Z" agent="5.0 (X11)" etag="fhG6FZ3CsWFJGxINi4um" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T02:48:21.747Z" agent="5.0 (X11)" etag="9vNvdL9tPAjmM7fuiEOh" version="16.5.4" type="github">
   <diagram id="SUfshjGX8d1NplEbrj5j" name="Page-1">
     <mxGraphModel dx="1099" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -36,6 +36,9 @@
         <mxCell id="I73ZqHrxdto4twrKV3E2-11" value="/canbus/vehstate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="690" y="300" width="110" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I73ZqHrxdto4twrKV3E2-12" target="I73ZqHrxdto4twrKV3E2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I73ZqHrxdto4twrKV3E2-12" value="&lt;div&gt;获取自车位置信息&lt;/div&gt;&lt;div&gt;DP-&amp;gt;loc_list&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="380" width="120" height="60" as="geometry" />
         </mxCell>
@@ -47,6 +50,27 @@
         </mxCell>
         <mxCell id="I73ZqHrxdto4twrKV3E2-17" value="&lt;div&gt;DataPoll&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I73ZqHrxdto4twrKV3E2-18" target="I73ZqHrxdto4twrKV3E2-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-18" value="获取最近的20帧定位数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I73ZqHrxdto4twrKV3E2-20" target="I73ZqHrxdto4twrKV3E2-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-20" value="获取距离整百毫秒最近的定位数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-22" value="&lt;div&gt;DP-&amp;gt;car_pgcss.xg&lt;/div&gt;&lt;div&gt;DP-&amp;gt;car_pgcss.yg&lt;/div&gt;&lt;div&gt;DP-&amp;gt;car_pgcss.angle&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-25" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;shadow=0;glass=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="500" width="375" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-26" value="&lt;div&gt;ImuTimeCheck()&lt;/div&gt;&lt;div&gt;对定位数据的时间戳进行处理，得到当前所需的一帧定位数据&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
