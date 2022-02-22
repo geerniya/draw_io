@@ -1,1 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T03:06:30.868Z" agent="5.0 (X11)" version="16.5.4" etag="4wwr-jvfzxS6ahH267S_" type="github"><diagram id="boEZIiHV4aIMiRwWBgbR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T06:51:17.602Z" agent="5.0 (X11)" etag="f4JWZOW5TDop1lGfKYGt" version="16.5.4" type="github">
+  <diagram id="boEZIiHV4aIMiRwWBgbR" name="Page-1">
+    <mxGraphModel dx="1099" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-1" target="jHBYU1fDhrwiFR05bD0F-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-1" value="&lt;div&gt;new_task&lt;/div&gt;&lt;div&gt;接收到新的任务&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-2" value="&lt;div&gt;SetMissionRoadId()&lt;/div&gt;&lt;div&gt;根据任务终点，寻找对应道路id&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-6" target="jHBYU1fDhrwiFR05bD0F-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-6" target="jHBYU1fDhrwiFR05bD0F-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-6" value="&lt;div&gt;SearchGlobalRoad()&lt;/div&gt;&lt;div&gt;判断起点和终点是否属于同一条道路&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="370" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-9" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="390" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
