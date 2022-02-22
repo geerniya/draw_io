@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T06:51:17.602Z" agent="5.0 (X11)" etag="f4JWZOW5TDop1lGfKYGt" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T08:44:28.672Z" agent="5.0 (X11)" etag="lQsUKlyp9fdA6qq00hw4" version="16.5.4" type="github">
   <diagram id="boEZIiHV4aIMiRwWBgbR" name="Page-1">
     <mxGraphModel dx="1099" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -27,10 +27,18 @@
         <mxCell id="jHBYU1fDhrwiFR05bD0F-6" value="&lt;div&gt;SearchGlobalRoad()&lt;/div&gt;&lt;div&gt;判断起点和终点是否属于同一条道路&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="370" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="jHBYU1fDhrwiFR05bD0F-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-7" target="jHBYU1fDhrwiFR05bD0F-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-7" value="&lt;div&gt;search.AStar()&lt;/div&gt;&lt;div&gt;调用A*搜索算法进行全局道路规划&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jHBYU1fDhrwiFR05bD0F-9" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-9" target="jHBYU1fDhrwiFR05bD0F-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-9" value="&lt;div&gt;SearchRoundRoad()&lt;/div&gt;&lt;div&gt;判断起点和终点的相对位置距离&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="385" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jHBYU1fDhrwiFR05bD0F-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -38,6 +46,49 @@
         </mxCell>
         <mxCell id="jHBYU1fDhrwiFR05bD0F-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="475" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-13" target="jHBYU1fDhrwiFR05bD0F-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-13" target="jHBYU1fDhrwiFR05bD0F-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-13" value="fabs(start - end) &amp;lt; 10" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="375" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-15" value="规划失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="392.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-17" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="390" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-20" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="490" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-23" target="jHBYU1fDhrwiFR05bD0F-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHBYU1fDhrwiFR05bD0F-23" target="jHBYU1fDhrwiFR05bD0F-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-23" value="&lt;div&gt;FirstRoadValid()&lt;/div&gt;&lt;div&gt;校验全局规划的路径&lt;/div&gt;&lt;div&gt;是否有效&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-24" value="&lt;div&gt;mission.route.global_road&lt;/div&gt;&lt;div&gt;得到全局路径规划的道路&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="750" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-26" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="710" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-27" value="规划失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="640" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jHBYU1fDhrwiFR05bD0F-29" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="640" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
