@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T10:54:43.874Z" agent="5.0 (X11)" version="16.5.4" etag="YJGt00UIw8_KsNMd8-y9" type="github"><diagram id="1GtBn0aFqDrYAGzryYMK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T11:22:04.739Z" agent="5.0 (X11)" etag="vogpSOlIzVRmgyARR7gX" version="16.5.4" type="github">
+  <diagram id="1GtBn0aFqDrYAGzryYMK" name="Page-1">
+    <mxGraphModel dx="1099" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bADBpg7-ClzOq8nuIWlr-1" target="bADBpg7-ClzOq8nuIWlr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-1" value="&lt;div&gt;CallbackNavCmd(mission)&lt;/div&gt;&lt;div&gt;车道导航回调函数，接收终点任务消息&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bADBpg7-ClzOq8nuIWlr-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-2" value="&lt;div&gt;NavigationStart()&lt;/div&gt;&lt;div&gt;导航开始主函数&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bADBpg7-ClzOq8nuIWlr-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-6" value="&lt;div&gt;NavgationPath()&lt;/div&gt;&lt;div&gt;车道级导航主进程函数&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bADBpg7-ClzOq8nuIWlr-9" target="bADBpg7-ClzOq8nuIWlr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bADBpg7-ClzOq8nuIWlr-9" target="bADBpg7-ClzOq8nuIWlr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-9" value="&lt;div&gt;struct_nav_.NavgationPath()&lt;/div&gt;&lt;div&gt;结构化道路导航任务&lt;/div&gt;&lt;div&gt;是否成功&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="520" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-10" value="导航失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="542.5" width="100.01" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-12" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="540" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bADBpg7-ClzOq8nuIWlr-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-13" value="&lt;div&gt;UpdateLocPose()&lt;/div&gt;&lt;div&gt;实时更新当前位置，选择所在车道及道路&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-16" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="620" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bADBpg7-ClzOq8nuIWlr-19" value="&lt;div&gt;UpdateSection()&lt;/div&gt;&lt;div&gt;判断当前车道是否是&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="760" width="275" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
