@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T02:08:50.162Z" agent="5.0 (X11)" etag="ypaNWIFeUnsF1hQv07OJ" version="16.5.4" type="github"><diagram id="SUfshjGX8d1NplEbrj5j" name="Page-1">jZJNU4MwEIZ/TY6dAVJRrtbaXvTCoY63SFYSJxCaBgP+eoNs+JhOZzxl99mPJO8uobuqOxjWiBfNQZEk4h2hTyRJ4ijL/DGQfiT3AZRGckyaQS5/IFQibSWHyyrRaq2sbNaw0HUNhV0xZox267RPrda3NqyEK5AXTF3Tk+RWIE3vtnPgCLIUeHVCaTpGKhay8SsXwbh2C0T3hO6M1na0qm4HalAvCDPWPd+ITi8zUNv/FKQZPZWvcFCbj+QYnd/ez19ug12+mWrxx/hY2wcJjG5rDkOTiNBHJ6SFvGHFEHV+6J4JWynvxd7EdmAsdDffGU+/93sDugJrep+CBdsgGK5M/IC+Wwwg5IiF9ikyhjMvp9azKt5AYYI7D+Avtthjuv8F</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T02:20:37.808Z" agent="5.0 (X11)" etag="fhG6FZ3CsWFJGxINi4um" version="16.5.4" type="github">
+  <diagram id="SUfshjGX8d1NplEbrj5j" name="Page-1">
+    <mxGraphModel dx="1099" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I73ZqHrxdto4twrKV3E2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="693WgNeGl-b2H0qXZqjw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="693WgNeGl-b2H0qXZqjw-1" value="定位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I73ZqHrxdto4twrKV3E2-1" target="I73ZqHrxdto4twrKV3E2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-1" value="地图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I73ZqHrxdto4twrKV3E2-2" target="I73ZqHrxdto4twrKV3E2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-2" value="控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-3" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;shadow=0;glass=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="350" width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-7" value="/loc/car_pose_1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-9" value="apollo.xml" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="300" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-11" value="/canbus/vehstate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="300" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-12" value="&lt;div&gt;获取自车位置信息&lt;/div&gt;&lt;div&gt;DP-&amp;gt;loc_list&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-15" value="&lt;div&gt;获取地图相关信息&lt;/div&gt;&lt;div&gt;map&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-16" value="&lt;div&gt;获取自车速度信息&lt;/div&gt;&lt;div&gt;DP-&amp;gt;car_speed&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I73ZqHrxdto4twrKV3E2-17" value="&lt;div&gt;DataPoll&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
