@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T09:15:00.251Z" agent="5.0 (X11)" version="16.5.4" etag="0Txml0_FkfczQC5i-Lwe" type="github"><diagram id="2CxeFXqhyZYapwlBq8rY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T09:33:40.791Z" agent="5.0 (X11)" etag="nee5bjAF4gOweX79u9Tq" version="16.5.4" type="github">
+  <diagram id="2CxeFXqhyZYapwlBq8rY" name="Page-1">
+    <mxGraphModel dx="1099" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FTBYMtqahIZUbI_VUBE-1" target="9FTBYMtqahIZUbI_VUBE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-1" value="&lt;div&gt;LoadRoadTopo()&lt;/div&gt;&lt;div&gt;生成道路拓扑关系road_map,road_net&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FTBYMtqahIZUbI_VUBE-2" target="9FTBYMtqahIZUbI_VUBE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-2" value="&lt;div&gt;GenerateCostMatrix()&lt;/div&gt;&lt;div&gt;按照距离，生成道路的costmap&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FTBYMtqahIZUbI_VUBE-4" target="9FTBYMtqahIZUbI_VUBE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-4" value="&lt;div&gt;start_id&lt;/div&gt;&lt;div&gt;起点道路id&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FTBYMtqahIZUbI_VUBE-6" target="9FTBYMtqahIZUbI_VUBE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-6" value="&lt;div&gt;f_score, g_score&lt;/div&gt;&lt;div&gt;更新f_score&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FTBYMtqahIZUbI_VUBE-8" target="9FTBYMtqahIZUbI_VUBE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-8" value="&lt;div&gt;while()&lt;/div&gt;&lt;div&gt;循环遍历整个道路拓扑关系，A*算法&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FTBYMtqahIZUbI_VUBE-10" target="9FTBYMtqahIZUbI_VUBE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-10" value="&lt;div&gt;end_id&lt;/div&gt;&lt;div&gt;终点道路id&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9FTBYMtqahIZUbI_VUBE-12" value="&lt;div&gt;route&lt;/div&gt;&lt;div&gt;得到起点到终点的道路列表&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
